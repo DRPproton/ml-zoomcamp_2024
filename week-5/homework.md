@@ -62,7 +62,7 @@ Let's use these models!
 
 * 0.359
 * 0.559
-* 0.759
+* **0.759**
 * 0.959
 
 If you're getting errors when unpickling the files, check their checksum:
