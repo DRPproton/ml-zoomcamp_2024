@@ -89,7 +89,7 @@ requests.post(url, json=client).json()
 
 What's the probability that this client will get a subscription?
 
-* 0.335
+* **0.335**
 * 0.535
 * 0.735
 * 0.935
@@ -123,7 +123,7 @@ Download the base image `svizor/zoomcamp-model:3.11.5-slim`. You can easily make
 So what's the size of this base image?
 
 * 45 MB
-* 130 MB
+* **130 MB**
 * 245 MB
 * 330 MB
 

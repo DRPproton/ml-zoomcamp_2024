@@ -1,7 +1,7 @@
 import requests
 
-url = 'http://localhost:9696'
+url = 'http://localhost:9696/predict'
 
 
-response = requests.get(url).json()
-print(response)
+client = {"job": "student", "duration": 280, "poutcome": "failure"}
+print(requests.post(url, json=client).json())
