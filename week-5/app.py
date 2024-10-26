@@ -8,7 +8,7 @@ app = Flask('churn')
 
 with open('dv.bin', 'rb') as f:
     dv = pickle.load(f)
-with open('model1.bin', 'rb') as f:
+with open('model2.bin', 'rb') as f:
     model = pickle.load(f)
 
 
